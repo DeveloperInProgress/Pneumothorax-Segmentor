@@ -6,6 +6,9 @@ from keras.callbacks import EarlyStopping
 from keras.layers.advanced_activations import *
 # a dict with x_train, y_train, x_test, y_test
 from load_data import data
+from hyperopt import hp
+from hyperopt.pyll.stochastic import sample
+
 im_height = 128
 im_width = 128
 
